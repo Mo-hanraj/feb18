@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="widtd=device-widtd, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="html.css">
+    <script src="ind.js"></script>
+   
+
+</head>
+
+<body class="body">
+
+    <div class="main-div">
+        <div class="form">
+            <h1> Library Management System</h1> <br>
+            <label for="">book name</label>
+            <input id="book-name" type="text" size="15">
+            <br><br>
+            <label for="">issued to</label>
+            <input id="issue-to" type="text" size="15">
+            <br><br>
+            <button onclick=handleClick()>issue book</button>
+
+
+
+
+
+        </div>
+
+        <div class="table-container">
+           
+
+            <table id="table" class="table">
+                    <tr>
+                        <td scope="col">ID</td>
+                        <td scope="col">BOOK NAME</td>
+                        <td scope="col">ISSUED TO</td>
+                        <td scope="col">ISSUE DATE AND TIME</td>
+                        <td scope="col">STATUS</td>
+                    </tr>
+              
+            </table>
+        </div>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,23 @@
+.form{
+    padding-left: 10px;
+    margin-top: 10px;
+    
+}
+
+.body{
+    background-color: black;
+    color: white;
+    
+}
+
+.table{
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    border: 1px solid #ddd;
+    padding: 8px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    margin-top: 40px;
+}
